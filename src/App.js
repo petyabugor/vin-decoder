@@ -26,10 +26,9 @@ function App() {
    return (
       <div className="wrapper">
          <Header />
-
          <Routes >
             <Route
-               path="/vin-decoder/"
+               path="/"
                element={
                   <Home
                      products={products}

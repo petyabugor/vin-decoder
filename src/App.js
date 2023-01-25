@@ -27,7 +27,7 @@ function App() {
       <div className="wrapper">
          <Header />
 
-         <Routes>
+         <Routes basename="/vin-decoder">
             <Route
                path="/"
                element={
